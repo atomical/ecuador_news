@@ -1,0 +1,10 @@
+! name: Ecuadorian News
+! description: Sites that cover Ecuador
+! public: false
+! author: atomical
+! avatar: #F8DB4B
+
+$discard
+$downrank,site=telesurenglish.net
+$boost=1,site=eluniverso.com
+$boost=3,site=marxist.com
